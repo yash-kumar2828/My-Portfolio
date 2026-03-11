@@ -59,7 +59,7 @@ Portfolio
 
 ## 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/yash-kumar2828/My-Portfolio.git
 cd My-Portfolio
 npm install
 npm start
@@ -77,3 +77,4 @@ npm start
 # 👨‍💻 Developer
 
 Developed with ❤️ by **Yash Kumar**
+
