@@ -1,0 +1,22 @@
+.buttons {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    z-index: 999;
+    background: #38bdf8;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.buttons:hover {
+    background: #0ea5e9;
+    color: white;
+    transition: 0.3s;
+}

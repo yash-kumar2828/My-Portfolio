@@ -1,0 +1,27 @@
+.skillsContainer {
+    background: linear-gradient(120deg, #1b2735, #141e30);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    padding: 4rem 0;
+}
+
+.skillsCard {
+    background: #243b55;
+    color: #fff;
+    border-radius: 2rem;
+}
+
+.skillsCard:hover {
+    background: #38bdf8;
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.skillsCard h5 {
+    margin-top: 2rem;
+}
+
+.skillsLogo {
+    font-size: 4rem;
+}
+

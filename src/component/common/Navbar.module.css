@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:global(.navbarContent) {
+  position: relative;
+  z-index: 1000;
+}
+.navbarContent{
+  background: linear-gradient(90deg,#141e30,#243b55);
+  padding: 1rem 0;
+}
+.navbarCollapse{
+  padding: 0 4rem 0 0 ;
+}
+.navbarContent button{
+  background-color: white;
+}
+.logo{
+  padding: 1rem;
+}
+.logo a{
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.9rem;
+}
+.navLink {
+    color: #ffffff !important;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+    position: relative;
+    display: inline-block; 
+    padding: 6px 2px;
+    transition: color 0.3s ease;
+}
+.navLink:hover{
+  color: #38bdf8 !important;
+}
+.navLink::before,
+.navLink::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #38bdf8;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition:
+        transform 0.35s ease,
+        bottom 0.35s ease; 
+}
+
+.navLink::after {
+  bottom: 0;
+}
+
+.navLink:hover {
+  transition: 0.5s;
+}
+.navLink:hover::after {
+  transform: scaleX(1);
+  bottom: 4px; 
+  color: #38bdf8 !important;
+}
+
+
+@media(max-width:992px){
+    .navLink {
+    margin-left: 2rem;
+    }
+    .navbarCollapse {
+    background: linear-gradient(90deg,#141e30,#243b55);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    }
+     .navLink::before,
+  .navLink::after {
+    display: none;
+  }
+}

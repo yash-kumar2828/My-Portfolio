@@ -1,0 +1,62 @@
+.projects{
+  padding:6rem 0;
+  background:#1b2735;
+  font-family: 'Poppins', sans-serif;
+}
+.projects h2{
+    color: #38bdf8;
+}
+.manyProjects{
+    padding: 3rem 0;
+}
+.projectCard{
+  background:#243b55;
+  padding:20px;
+  border-radius:15px;
+  text-align:center;
+  color:white;
+  transition:0.3s;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.projectCard:hover{
+  transform:translateY(-8px);
+}
+.projectCard h6{
+  color:#94a3b8;
+}
+.projectCard{
+    display: inline-block;
+}
+.projectCard ul{
+  color: #94a3b8;
+}
+.btns a{
+  text-decoration:none;
+  padding:8px 18px;
+  margin:5px;
+  border-radius:6px;
+  background:#38bdf8;
+  color:black;
+  font-size:14px;
+}
+
+.btns a:hover{
+  background:#0ea5e9;
+  color:white;
+}
+
+.projectImages{
+        width: 60%;
+    margin-left: 20%;
+}
+.projectImages img{
+    /* width: 100%; */
+    height: 80vh;
+}
+@media(min-width:1020){
+   .projectCard{
+    width: 50px;
+   } 
+}

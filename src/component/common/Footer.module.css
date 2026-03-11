@@ -1,0 +1,48 @@
+.developerInfo {
+    background: #141e30;
+    color: #e2e8f0;
+    padding: 2rem;
+    border-top:1px solid #243b55;
+}
+
+.developer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.developerDetail span {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.developerDetail a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+@media(max-width:1060px) {
+    .footerContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 5rem;
+    }
+}
+
+
+@media(max-width:750px) {
+    .footerContainer {
+        display: inline-block;
+    }
+
+    .developer {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .developerDetail {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
