@@ -33,8 +33,8 @@ const Navbar=()=> {
                 <li className="nav-item"><Link to="/" className={`nav-link active ${styles.navLink}`}>Home</Link></li>
                 <li className="nav-item"><Link to="/" className={`nav-link active ${styles.navLink}`} onClick={(e) => scrollToSection(e, "about")}>About</Link></li>
                 <li className="nav-item"><Link to="" className={`nav-link active ${styles.navLink}`} onClick={(e)=>scrollToSection(e,"skills")}>Skills</Link> </li>
+                <li className="nav-item"><Link to="" className={`nav-link active ${styles.navLink}`} onClick={(e) => scrollToSection(e, "projects")}>Projects</Link></li>
                 <li className="nav-item"><Link to="/" className={`nav-link active ${styles.navLink}`} onClick={(e) => scrollToSection(e, "contact")}>Contact</Link></li>
-                <li className="nav-item"><Link to="/projects" className={`nav-link active ${styles.navLink}`}>Projects</Link></li>
               </ul>
           </div>
         </div>

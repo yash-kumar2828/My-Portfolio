@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import About from "../component/common/About";
 import Skills from "../component/common/Skills";
 import Contact from "../component/common/Contact";
+import Project from "./Projects";
 
 const Home = () => {
 
@@ -19,7 +20,7 @@ const Home = () => {
       }
     }
   }, [location]);
-  
+
   return (
     <>
       <section id="about">
@@ -27,6 +28,9 @@ const Home = () => {
       </section>
       <section id="skills">
         <Skills />
+      </section>
+      <section id="projects">
+        <Project />
       </section>
       <section id="contact">
         <Contact />

@@ -1,50 +1,59 @@
-.contactContainer{
+.contactContainer {
     padding: 5rem 0;
 
 }
-.contactForm{
+
+.contactForm {
     margin-top: 4%;
     margin-left: 10%;
 }
-.formsData{
+
+.formsData {
     display: grid;
     grid-template-columns: auto auto;
 }
-.formsValue input{
+
+.formsValue input {
     width: 90%;
 }
-.contactForm h5{
-    color:  #fff !important;
+
+.contactForm h5 {
+    color: #fff !important;
     font-family: 'Poppins', sans-serif;
 }
-.contactForm h1{
-    color:  #cbd5e1 !important;
+
+.contactForm h1 {
+    color: #cbd5e1 !important;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-.submitButton{
+
+.submitButton {
     width: 95%;
 }
-.submitButton button{
-    background: linear-gradient(90deg,#38bdf8,#6366f1);
-    color:white
+
+.submitButton button {
+    background: linear-gradient(90deg, #38bdf8, #6366f1);
+    color: white
 }
 
-.submitButton button:hover{
+.submitButton button:hover {
     opacity: 0.9;
 }
 
-@media(max-width:1060px){
-    .contactForm{
+@media(max-width:1060px) {
+    .contactForm {
         width: 80%;
         margin-top: 4rem;
         margin-left: 10%;
     }
-    .formsData{
+
+    .formsData {
         display: inline-block;
         width: 100%;
     }
-    .formsValue input{
+
+    .formsValue input {
         width: 95%;
     }
 }

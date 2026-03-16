@@ -1,6 +1,5 @@
 import styles from "./About.module.css";
 import Image from "../../assets/boy.png";
-import { motion } from "framer-motion";
 import { ReactTyped } from "react-typed";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
@@ -50,7 +49,7 @@ const About = () => {
               <p>I am a passionate Web Developer with a strong foundation in HTML, CSS, Bootstrap, Tailwind CSS, and React JS. I enjoy building responsive and user-friendly websites and continuously learning new technologies to improve my skills.</p>
            
 
-            <div className={styles.socialMedia}>
+            <div className={styles.socialMedia}> 
               <div className={styles.social}>
                 <Link to="https://www.linkedin.com/in/Yash-kumar2804/"><FaLinkedin className={styles.socialLinks} /></Link>
               </div>
@@ -61,7 +60,7 @@ const About = () => {
                 <Link to=""><FaWhatsapp className={styles.socialLinks} /></Link>
               </div>
             </div>
-            <button className={styles.downloadButton}><Link to="/YashResume.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadLinks}>View CV</Link></button>
+            <button className={styles.downloadButton}><Link to="/YashResume.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadLinks}>Resume</Link></button>
           </div>
            </div>
           <div>
